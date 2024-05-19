@@ -15,31 +15,31 @@ export default function pagina(){
         
             <Grid container columnSpacing={2} rowSpacing={6} columns={5} width={"50vw"}>
                 <Grid item xs={1}>
-                    <CheckBoxControlado label="Etiquea numero uno" checked={valor} setChecked={setValor}/>
+                    <CheckBoxControlado name="1" label="Etiquea numero uno" checked={valor} setChecked={setValor}/>
                 </Grid>
                 <Grid item xs={1}>
-                    <CheckBoxControlado disabled label="Etiquea numero dos" checked={valor} setChecked={setValor}/>
+                    <CheckBoxControlado name="1" disabled label="Etiquea numero dos" checked={valor} setChecked={setValor}/>
                 </Grid>
                 <Grid item xs={1}>
-                    <CheckBoxControlado label="Etiquea numero tres" checked={valor} setChecked={setValor}/>
+                    <CheckBoxControlado name="1" label="Etiquea numero tres" checked={valor} setChecked={setValor}/>
                 </Grid>
                 <Grid item xs={2}>
-                    <CheckBoxControlado label="Etiquea numero cuatrocuatro cuatro cuatrocuatro cuatro cuatrocuatro cuatro" checked={valor} setChecked={setValor}/>
+                    <CheckBoxControlado name="1" label="Etiquea numero cuatrocuatro cuatro cuatrocuatro cuatro cuatrocuatro cuatro" checked={valor} setChecked={setValor}/>
                 </Grid>
                 <Grid item xs={1}>
-                    <CheckBoxControlado label="Etiquea numero cinco" checked={valor} setChecked={setValor}/>
+                    <CheckBoxControlado name="1" label="Etiquea numero cinco" checked={valor} setChecked={setValor}/>
                 </Grid>
                 <Grid item xs={1}>
-                    <CheckBoxControlado label="Etiquea numero seis" checked={valor} setChecked={setValor}/>
+                    <CheckBoxControlado name="1" label="Etiquea numero seis" checked={valor} setChecked={setValor}/>
                 </Grid>
                 <Grid item xs={1}>
-                    <CheckBoxControlado label="Etiquea numero siete" checked={valor} setChecked={setValor}/>
+                    <CheckBoxControlado name="1" label="Etiquea numero siete" checked={valor} setChecked={setValor}/>
                 </Grid>
                 <Grid item xs={1}>
-                    <CheckBoxControlado label="Etiquea numero ocho" checked={valor} setChecked={setValor}/>
+                    <CheckBoxControlado name="1" label="Etiquea numero ocho" checked={valor} setChecked={setValor}/>
                 </Grid>
                 <Grid item xs={1}>
-                    <CheckBoxControlado label="Etiquea numero nueve" checked={valor} setChecked={setValor}/>
+                    <CheckBoxControlado name="1" label="Etiquea numero nueve" checked={valor} setChecked={setValor}/>
                 </Grid>
             </Grid>
                      
