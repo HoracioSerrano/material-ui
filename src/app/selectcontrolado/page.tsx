@@ -1,6 +1,6 @@
 'use client'
 import { Container, Grid, TextField } from "@mui/material";
-import SelectControlado from "./selectcontrolado";
+import SelectControlado from "./SelectControlado";
 import { useState } from "react";
 
 export default function pagina(){
